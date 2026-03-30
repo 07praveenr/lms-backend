@@ -106,7 +106,7 @@ async function seedCourses() {
 }
 
 app.use("/api/user", require("./routes/userRoutes"));
-app.use("/api/course", require("./routes/courseRoutes"));
+app.use("/api/courses", require("./routes/courseRoutes"));
 app.use("/api/enrollment", require("./routes/enrollmentRoutes"));
 app.use("/api/reviews", require("./routes/reviewRoutes"));
 app.use("/api/analytics", require("./routes/analyticsRoutes"));
