@@ -4,7 +4,7 @@ const Course = require("../models/Course");
 const { authMiddleware, adminMiddleware } = require("../middleware/auth");
 
 // GET ALL COURSES (with search & filter)
-router.get("/all", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const { search, category } = req.query;
 
